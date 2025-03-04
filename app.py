@@ -5,7 +5,7 @@ from langchain.memory import ConversationBufferMemory
 import os
 
 # Set up environment variables for Groq API
-GROQ_API_KEY = "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"
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 # st.secrets["GROQ_API_KEY"]
 
 # Initialize LLM with Groq API
